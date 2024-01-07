@@ -1,0 +1,178 @@
+# Author: mahor1221 <mahor1221@pm.me>
+# Port of VSCode Material Themes:
+# https://github.com/material-theme/vsc-material-theme
+
+"attribute" = "magenta"
+"type" = "yellow"
+"type.builtin" = "orange"
+
+"constant" = "orange"
+#"constant.builtin" = {}
+#"constant.builtin.boolean" = {}
+#"constant.character" = {}
+"constant.character.escape" = "gray"
+#"constant.numeric" = {}
+#"constant.numeric.integer" = {}
+#"constant.numeric.float" = {}
+
+"string" = "green"
+"string.regexp" = "gray"
+"string.special" = "gray"
+#"string.special.path" = {}
+#"string.special.url" = {}
+#"string.special.symbol" = {}
+
+"comment" = { fg = "disabled", modifiers = ["italic"] }
+#"comment.line" = {}
+#"comment.block" = {}
+#"comment.block.documentation" = {}
+
+"variable" = "fg"
+#"variable.builtin" = {}
+#"variable.parameter" = {}
+"variable.other.member" = "gray"
+
+"label" = "yellow"
+'special' = "cyan"
+"operator" = "cyan"
+"punctuation" = "cyan"
+#"punctuation.delimiter" = {}
+#"punctuation.bracket" = {}
+#"punctuation.special" = {}
+
+"keyword" = "magenta"
+"keyword.control.conditional" = { fg = "cyan", modifiers = ["italic"] }
+"keyword.control.repeat" = { fg = "cyan", modifiers = ["italic"] }
+#"keyword.control.import" = "magenta"
+"keyword.control.return" = { fg = "cyan", modifiers = ["italic"] }
+"keyword.control.exception" = { fg = "cyan", modifiers = ["italic"] }
+#"keyword.operator" = {}
+"keyword.directive" = "cyan"
+"keyword.function" = "red"
+#"keyword.storage" = {}
+"keyword.storage.type" = "red"
+"keyword.storage.modifier" = "cyan"
+
+"constructor" = "yellow"
+"function" = "blue"
+#"function.builtin" = {}
+#"function.method" = {}
+"function.macro" = "cyan"
+"function.special" = "cyan"
+
+"tag" = "red"
+"namespace" = "yellow"
+
+"markup.heading" = "yellow"
+"markup.heading.marker" = "cyan"
+
+"markup.list" = "cyan"
+#"markup.list.numbered" = {}
+#"markup.list.unnumbered" = {}
+
+"markup.bold" = { fg = "red", modifiers = ["bold"] }
+"markup.italic" = { fg = "red", modifiers = ["italic"] }
+"markup.quote" = { fg = "cyan", modifiers = ["italic"] }
+
+"markup.link.url" = { fg = "red", underline = { style = "line" } }
+"markup.link.label" = "fg"
+"markup.link.text" = "green"
+
+"markup.normal" = "caret"
+#"markup.normal.completion" = {} # For completion doc popup ui.
+#"markup.normal.raw" = {}        # For hover popup ui.
+
+"markup.heading.completion" = "caret" # Headings for completion doc popup ui.
+"markup.heading.raw" = "caret"        # Headings for hover popup ui.
+
+"markup.raw" = "gray" # Code block in Markdown.
+#"markup.raw.block" = {}  # Multiline (```) codeblock in Markdown.
+#"markup.raw.inline" = {} # `Inline code block` in Markdown.
+#"markup.raw.inline.completion" = {}
+#"markup.raw.inline.hover" = {}
+
+"diff.plus" = "green"
+"diff.minus" = "red"
+"diff.delta" = "blue"
+"diff.delta.moved" = "magenta"
+
+"ui.background" = { bg = "bg" }
+#"ui.background.separator" = {}
+
+"ui.cursor" = { fg = "caret", modifiers = ["reversed"] }
+#"ui.cursor.insert" = {}
+#"ui.cursor.select" = {}
+#"ui.cursor.match" = {}
+#"ui.cursor.primary" = {}
+
+#"ui.gutter" = {}
+#"ui.gutter.selected" = {}
+"ui.linenr" = "lnnumber"
+"ui.linenr.selected" = "gray"
+
+"ui.popup" = { bg = "contrast" }      # Documentation popups (space-k).
+"ui.popup.info" = { bf = "contrast" } # Info popups box (space mode menu).
+"ui.window" = "bg"                    # Window border between splits.
+"ui.help" = { bg = "bg" }             # `:command` descriptions above the command line.
+
+"ui.text" = "fg" # Default text color.
+#"ui.text.focus" = {} # Selection highlight in buffer-picker or file-picker.
+#"ui.text.info" = {}  # Info popup contents (space mode menu).
+#"ui.text.focus" = { fg = "white", bg = "light-black", modifiers = ["bold"] }
+
+"ui.virtual" = "excluded"
+#"ui.virtual.ruler" = {}
+#"ui.virtual.whitespace" = {}
+"ui.virtual.ruler" = { bg = "contrast" }
+
+"ui.menu" = { bg = "contrast" }
+"ui.menu.selected" = { bg = "selected" }
+"ui.menu.scroll" = { bg = "gray" }
+
+"ui.selection" = { bg = "selected" }
+#"ui.selection.primary" = {}
+
+"ui.cursorline.primary" = { bg = "contrast" }
+#"ui.cursorline.secondary" = {}
+#"ui.cursorcolumn.primary" = {}
+#"ui.cursorcolumn.secondary" = {}
+
+"error" = { fg = "error", modifiers = ["bold"] }
+"warning" = { fg = "yellow", modifiers = ["bold"] }
+"hint" = { fg = "magenta", modifiers = ["bold"] }
+"info" = { fg = "fg", modifiers = ["bold"] }
+"diagnostic.error" = { underline = { color = "error", style = "curl" } }
+"diagnostic.warning" = { underline = { color = "yellow", style = "curl" } }
+"diagnostic.hint" = { underline = { color = "magenta", style = "curl" } }
+"diagnostic.info" = { underline = { color = "fg", style = "curl" } }
+
+"ui.statusline" = { bg = "contrast", fg = "accent" }
+"ui.statusline.inactive" = { bg = "contrast", fg = "fg" }
+#"ui.statusline.normal" = {}
+#"ui.statusline.insert" = {}
+# "ui.statusline.select" = {}
+#"ui.statusline.separator" = {}
+
+[palette]
+black = "#000000"
+red = "#F07178"
+green = "#C3E88D"
+yellow = "#FFCB6B"
+blue = "#82AAFF"
+magenta = "#C792EA"
+cyan = "#89DDFF"
+white = "#EEFFFF"
+
+gray = "#717CB4"
+orange = "#F78C6C"
+error = "#FF5370"
+caret = "#FFCC00"
+accent = "#84FFFF"
+
+bg = "#0F111A"
+contrast = "#090B10"
+selected = "#1F2233"
+excluded = "#292D3E"
+lnnumber = "#3B3F51"
+disabled = "#464B5D"
+fg = "#A6ACCD"
